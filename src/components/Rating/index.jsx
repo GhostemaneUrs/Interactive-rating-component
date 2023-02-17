@@ -6,7 +6,7 @@ const Steps = () => {
   const { size, rating } = ratingContext
 
   return (
-    <div className='flex gap-[33px] items-center w-full mb-8'>
+    <div className='flex  items-center w-full mb-8 justify-between'>
       {size <= 5 &&
         Array(size)
           .fill(0)
@@ -19,7 +19,7 @@ const Steps = () => {
                   rating === index + 1
                     ? 'bg-orange'
                     : 'bg-dark-blue hover:bg-light-grey-900'
-                }  group rounded-full w-[45px] px-2 py-2 flex justify-center items-center text-center cursor-pointer`}
+                }  group rounded-full w-[45px] h-[45px] flex justify-center items-center text-center cursor-pointer`}
               >
                 <span
                   className={`${
