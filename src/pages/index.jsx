@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Card from '../components/Card'
 const index = () => {
   return (
-    <div className='container-1440' role='main'>
-      <h1 className='text-red-500'>Home</h1>
+    <div className='container-1440 flex justify-center items-center min-h-screen' role='main'>
+      <Card />
     </div>
   )
 }
