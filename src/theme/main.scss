@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/components';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.container-1440 {
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+@font-face {
+  font-family: 'Overpass';
+  src: url('../assets/fonts/Overpass-Black.ttf') format('truetype');
+  src: url('../assets/fonts/Overpass-Regular.ttf') format('truetype');
+}
