@@ -11,7 +11,7 @@ const Card = () => {
   const { rating, send, size } = ratingContext
 
   return (
-    <div className='rounded-3xl bg-[#171E27] w-full max-w-[350px] p-6 min-h-[400px] max-h-[400px] flex justify-center flex-col'>
+    <div className='rounded-3xl bg-[#171E27] w-full max-w-[400px] p-6 min-h-[400px] max-h-[400px] flex justify-center flex-col'>
       {send ? (
         <Fragment>
           <div className='mb-4'>

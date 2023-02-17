@@ -6,7 +6,7 @@ const Steps = () => {
   const { size, rating } = ratingContext
 
   return (
-    <div className='flex gap-5 items-center w-full mb-8'>
+    <div className='flex gap-[33px] items-center w-full mb-8'>
       {size <= 5 &&
         Array(size)
           .fill(0)
