@@ -55,7 +55,7 @@ const Card = () => {
             />
           </div>
           <div className='mb-6'>
-            <h1 className='text-white text-2xl font-bold'>How did we do?</h1>
+            <h1 className='text-white text-3xl font-bold'>How did we do?</h1>
           </div>
           <div className='mb-6'>
             <p className='text-light-grey-500 text-[15px]'>
@@ -65,7 +65,7 @@ const Card = () => {
           </div>
           <Rating />
           <div
-            className='w-full bg-orange hover:bg-white text-center group h-[35px] flex justify-center items-center rounded-2xl cursor-pointer'
+            className='w-full bg-orange hover:bg-white text-center group h-[40px] flex justify-center items-center rounded-xl cursor-pointer'
             onClick={() => sendRating(dispatch, rating)}
           >
             <span className='uppercase text-white group-hover:text-orange font-bold text-[15px] mt-1'>
